@@ -6,8 +6,8 @@
 </description>
     <link>http://ericoporto.github.io/</link>
     <atom:link href="http://ericoporto.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Feb 2015 00:31:30 -0200</pubDate>
-    <lastBuildDate>Wed, 18 Feb 2015 00:31:30 -0200</lastBuildDate>
+    <pubDate>Wed, 18 Feb 2015 10:34:56 -0200</pubDate>
+    <lastBuildDate>Wed, 18 Feb 2015 10:34:56 -0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -26,22 +26,22 @@
 
 &lt;p&gt;Below there is a link to demo the engine as is. If you are on a computer, use WASD keys to walk and IJ keys to interact. You can also try it out with a Xbox360 joypad. If you are on a smartphone, there is touch support but the performance may vary depending on device power and resolution - the engine is still not very optimized.&lt;/p&gt;
 
-&lt;p&gt;Since it&amp;#39;s only a demo, there&amp;#39;s no winning.&lt;/p&gt;
+&lt;p&gt;It&amp;#39;s only a demo, and there are still some bugs. The game should auto resize when necessary - like when switching to full-screen. If it doesn&amp;#39;t, just press 0 on the keyboard. I plan on hiding the mouse and some more tweaks later on.&lt;/p&gt;
 
 &lt;!-- _includes/image.html --&gt;
 
 &lt;div class=&quot;image-wrapper&quot; &gt;
     
-    &lt;a href=&quot;/builds/build00001/index.html&quot; title=&quot;demo here!&quot; target=&quot;_blank&quot;&gt;
+    &lt;a href=&quot;/builds/build00001/index.html&quot; title=&quot;click on this image to open the demo.&quot; target=&quot;_blank&quot;&gt;
     
-        &lt;img src=&quot;http://ericoporto.github.io//images/title.png&quot; alt=&quot;demo here!&quot;/&gt;
+        &lt;img src=&quot;http://ericoporto.github.io//images/title.png&quot; alt=&quot;click on this image to open the demo.&quot;/&gt;
     
     &lt;/a&gt;
     
     
-        &lt;p class=&quot;image-caption&quot;&gt;click on this image to open the demo.&lt;/p&gt;
-    
 &lt;/div&gt;
+
+&lt;p&gt;If you like the demo, have some comments, or else, hit me up on twitter.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Feb 2015 21:34:25 -0200</pubDate>
         <link>http://ericoporto.github.io/feature/2015/02/17/mean_while_in_the_forest.html</link>

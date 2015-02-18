@@ -19,6 +19,8 @@ image: /assets/article_images/2015-02-17-mean_while_in_the_forest/bgpost2.JPG
 
 Below there is a link to demo the engine as is. If you are on a computer, use WASD keys to walk and IJ keys to interact. You can also try it out with a Xbox360 joypad. If you are on a smartphone, there is touch support but the performance may vary depending on device power and resolution - the engine is still not very optimized.
 
-Since it's only a demo, there's no winning.
+It's only a demo, and there are still some bugs. The game should auto resize when necessary - like when switching to full-screen. If it doesn't, just press 0 on the keyboard. I plan on hiding the mouse and some more tweaks later on.
 
-{% include image.html img="/images/title.png" title="demo here!" caption="click on this image to open the demo." url="/builds/build00001/index.html" %}
+{% include image.html img="/images/title.png" title="click on this image to open the demo." url="/builds/build00001/index.html" %}
+
+If you like the demo, have some comments, or else, hit me up on twitter.

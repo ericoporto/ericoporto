@@ -741,3 +741,9 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0; }
+
+.image-wrapper {
+  text-align: center; }
+  .image-wrapper .image-caption {
+    color: #828282;
+    margin-top: 10.66667px; }
