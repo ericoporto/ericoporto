@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Glass of Lores"
-date:   2015-07-02 00:34:25
+date:   2015-02-07 04:34:25
 categories: feature
 tags: featured
 image: /assets/article_images/2015-07-02-a_glass_of_lores/world_map.JPG
