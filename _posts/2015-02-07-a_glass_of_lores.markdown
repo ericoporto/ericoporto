@@ -4,7 +4,7 @@ title:  "A Glass of Lores"
 date:   2015-02-07 04:34:25
 categories: feature
 tags: featured
-image: /assets/article_images/2015-07-02-a_glass_of_lores/world_map.JPG
+image: /assets/article_images/2015-02-07-a_glass_of_lores/world_map.JPG
 ---
 #In the beginning.
 <i>My mom told me this story when I was very little, maybe some parts I modified, hearing others in the village. We came from the Unseeable Continent, where existed three small cities, each one with different focus, so near one from the other, with a plain plaza in the heart, where people gathered to discuss their dilemmas, drank for love, wrote poems, stories and pursued the reason of their own existence. Valleti produced wine, Villabassa focused on the rice crops, and  Montemitro bred the Yaks. Their texts traveled the world, and their readers got interested in these small cities.</i>

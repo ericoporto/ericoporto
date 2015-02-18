@@ -4,7 +4,7 @@ title:  "Mean While in the Forest"
 date:   2015-02-17 23:34:25
 categories: feature
 tags: featured demo
-image: /assets/article_images/2015-17-02-mean_while_in_the_forest/bgpost2.JPG
+image: /assets/article_images/2015-02-17-mean_while_in_the_forest/bgpost2.JPG
 ---
 #In another place of the island
 <i>An unexpected storm. Our ship was lost. We were floating on some piece of the ship’s hull, my husband was unconscious, but still alive. Where the hell that came from? At the time, some weird mist engulfed us, and then, we hit the shore. Your dad was very heavy, and very wet. The beach we’ve reached was inside a cave. I remember it as a beautiful place, it was night at the time, but there was a light in the cave, but I don’t remember any kind of fire, no torches.</i>
