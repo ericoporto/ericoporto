@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 1
+date: 2018-09-15
+title: Future Flashback
+img: prj_futureflashback.png
+alt: Future Flashback
+project-date: April 2017
+client: <a href="https://www.futureflashbackgame.com/presskit/sheet.php?p=future_flashback">Myths Untold</a>
+category: Game Development
+description:  <a href="http://www.futureflashbackgame.com">Future Flashback</a> is a Cyberpunk themed Point and click adventure game, with incredible pixels and great music that clashes the 80's vibes on chiptune beat as you explore the journey of a man trapped in the memories of another person. Worked on the game direction, programming, <a href="http://futureflashbackgame.com/blog/">website</a> and social accounts.
+
+---

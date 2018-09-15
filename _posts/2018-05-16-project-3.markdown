@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 3
+date: 2018-05-16
+title: FGMK
+img: prj_fgmk.png
+alt: fgmk
+project-date: April 2018
+client: <a href="https://github.com/ericoporto/fgmk">FGMK</a>
+category: Game Development
+description: <a href="https://github.com/ericoporto/fgmk">FGMK</a> is a software for creating a HTML5 RPG through an easy to use PyQt UI. The project seeks to reach this goal by providing a spec for writing and interpret text files as games, a tool for writing these files in an easy to use interface, and an engine to allow playing these files as a game.
+
+---

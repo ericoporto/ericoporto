@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 4
+date: 2018-02-28
+title: Codename-LT
+img: prj_codenamelt.png
+alt: codenamelt
+project-date: February 2018
+client: <a href="https://github.com/VacaRoxa">Vacaroxa</a>
+category: Game Development
+description: A pixelart game where you have to run without getting caught by evil agents. This is the product of development with an awesome team of people from the VACAROXA. Find them on twitter through <a href="https://twitter.com/estudiovacaroxa"> @estudiovacaroxa</a>. Game created on Global Game Jam 2018. Find it <a href="https://github.com/VacaRoxa/CodenameLT/"> on Github repository</a> or  <a href="https://bakudas.itch.io/clt">on itch.io</a>.
+
+---

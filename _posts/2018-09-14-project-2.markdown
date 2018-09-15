@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 2
+date: 2018-09-14
+title: AGSJOY
+img: prj_agsjoy.png
+alt: agsjoy
+project-date: July 2018
+client: Adventure Game Studio
+category: Game Development
+description: Joystick for Adventure Game Studio Engine in Linux, OSX and Windows, based on SDL2. Reverse engineered version of the plugin, based on code started by qptain_Nemo, compatible with Wyz agsjoy, builds on the cloud.
+
+---

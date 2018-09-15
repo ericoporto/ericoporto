@@ -1,236 +1,603 @@
 <!DOCTYPE html>
 <html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Érico Porto</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Érico Vieira Porto projects.">
+    <meta name="keywords" content="open source, gamedev, tools, js libs, snippets" />
+    <meta name="author" content="Porto Érico">
+    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
-  <head>
-  <meta charset="utf-8">
-  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
 
-  <title>A Glass of Lores</title>
-  <meta name="description" content="A new top down RPG game that you will be able to play right on this webpage.
-" />
+    <!-- Google verification -->
+    
 
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="MobileOptimized" content="320" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Bing Verification -->
+    
 
-  <link rel="canonical" href="http://ericoporto.github.io/">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-  <link rel="shortcut icon" href="/assets/images/favicon.ico">
-<!--  <link rel="stylesheet" href=""> -->
-  <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
-  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-
-  <body>
-
-    <!-- header start -->
-
-<a href="http://ericoporto.github.io" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/agol_logo.jpg)"></span></a>
-
-<!-- header end -->
-
-
-    <!-- content start -->
-
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="teaserimage">
-    <div class="teaserimage-image" style="background-image: url(/assets/images/titleimgsw.jpg)">
-        Teaser Image
-    </div>
-</div>
-
-<header class="blog-header">
-    
-      <a class="blog-logo" href="http://ericoporto.github.io" style="background-image: url('/assets/images/agol_logo.jpg')">A Glass of Lores</a>
-    
-    <h1 class="blog-title">A Glass of Lores</h1>
-    <h2 class="blog-description">A new top down RPG game that you will be able to play right on this webpage.
-</h2>
-    <div class="custom-links">
-      
-        
-            <a class="icon-twitter" href="https://twitter.com/aglassoflores">
-              <i class="fa fa-twitter"></i>
-            </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
-        
-      
-        
-            <a class="icon-github" href="https://github.com/ericoporto">
-              <i class="fa fa-github"></i>
-            </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
-        
-      
-      <a href="/about/">About</a>
-    </div>
-</header>
-
-
-<main class="content" role="main">
-
-    
-    <h5 class="index-headline featured"><span>Featured</span></h5>
-
-    <div class="container featured">
-      
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="/feature/2015/02/17/mean_while_in_the_forest.html" itemprop="url">Mean While in the Forest</a></h2>
-            </header>
-            <section class="post-excerpt" itemprop="description">
-              <p>In another place of the island An unexpected storm. Our ship was lost. We were floating on some piece of the ship’s hull, my husband was unconscious, but still alive. Where the hell that came from? At the time, some weird mist engulfed us, and then, we hit the shore....</p>
-            </section>
-            <div class="post-meta">
-              <time datetime="17 February 2015">17 February 2015</time>
-  <!--            <span class="post-tags-set">on <span class="post-tag-">, <a href="/tag/"></a></span></span>-->
+    <body id="page-top" class="index">
+       <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Érico Porto</a>
             </div>
-          </div>
-        </article>
-      
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="/feature/2015/02/07/a_glass_of_lores.html" itemprop="url">A Glass of Lores</a></h2>
-            </header>
-            <section class="post-excerpt" itemprop="description">
-              <p>In the beginning. My mom told me this story when I was very little, maybe some parts I modified, hearing others in the village. We came from the Unseeable Continent, where existed three small cities, each one with different focus, so near one from the other, with a plain plaza...</p>
-            </section>
-            <div class="post-meta">
-              <time datetime="07 February 2015">07 February 2015</time>
-  <!--            <span class="post-tags-set">on <span class="post-tag-">, <a href="/tag/"></a></span></span>-->
-            </div>
-          </div>
-        </article>
-      
-    </div>
 
-    <h5 class="index-headline normal"><span>Regular</span></h5>
-    
-
-    <div class="cf frame">
-      
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="/feature/2015/02/17/mean_while_in_the_forest.html" itemprop="url">Mean While in the Forest</a></h2>
-            </header>
-            <section class="post-excerpt" itemprop="description">
-              <p>In another place of the island An unexpected storm. Our ship was lost. We were floating on some piece of the ship’s hull, my husband was unconscious, but still alive. Where the hell that came from? At the time, some weird mist engulfed us, and then, we hit the shore....</p>
-            </section>
-            <div class="post-meta">
-              <time datetime="17 February 2015">17 February 2015</time>
-<!--            <span class="post-tags-set">on <span class="post-tag-">, <a href="/tag/"></a></span></span>-->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </div>
-        </article>
-      
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="/feature/2015/02/07/a_glass_of_lores.html" itemprop="url">A Glass of Lores</a></h2>
-            </header>
-            <section class="post-excerpt" itemprop="description">
-              <p>In the beginning. My mom told me this story when I was very little, maybe some parts I modified, hearing others in the village. We came from the Unseeable Continent, where existed three small cities, each one with different focus, so near one from the other, with a plain plaza...</p>
-            </section>
-            <div class="post-meta">
-              <time datetime="07 February 2015">07 February 2015</time>
-<!--            <span class="post-tags-set">on <span class="post-tag-">, <a href="/tag/"></a></span></span>-->
-            </div>
-          </div>
-        </article>
-      
-    </div>
-
-    <nav class="pagination" role="navigation">
-      
-      <span class="page-number">Page 1 of 1</span>
-      
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
     </nav>
+        <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Érico Porto</span>
+                        <hr class="star-light">
+                        <span class="skills">Game Developer - Project Manager - Web Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/prj_futureflashback.png" class="img-responsive" alt="Future Flashback">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-2" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/prj_agsjoy.png" class="img-responsive" alt="agsjoy">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-3" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/prj_fgmk.png" class="img-responsive" alt="fgmk">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-5" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/prj_bashblog.png" class="img-responsive" alt="Command Line Erico">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-4" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/prj_codenamelt.png" class="img-responsive" alt="codenamelt">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-6" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/prj_keto.png" class="img-responsive" alt="keto">
+                        </a>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+     <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>I do open source code, using Python, JavaScript and C++. 
+                       You can browse some of my works above or check my github profile for more code.
+                       I also like to do project management and am currently directing my own game.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>If you are curious for more informations on my projects, or have a project yourself that needs help, hit my contact form below. 
+                      Follow me and my projects on social networks if you want to keep in touch.  </p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="https://ko-fi.com/E1E89FMI" class="btn btn-lg btn-outline">
+                        <i class="fa fa-coffee"></i> Support Me on Ko-fi
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-    <!-- 
-     -->
+    
+    <!-- Contact Section -->
+<section id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>Contact Me</h2>
+				<hr class="star-primary">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<form  action="//formspree.io/erico@futureflashbackgame.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label>Name</label>
+							<input type="text" name="name" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label>Email Address</label>
+							<input type="email" name="_replyto" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div>
+						<input type="hidden"  name="_subject" value="New submission!">
+						<input type="text" name="_gotcha" style="display:none" />
+					</div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label>Message</label>
+							<textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<br>
+					<div id="success"></div>
+					<div class="row">
+						<div class="form-group col-xs-12">
+							<button type="submit" class="btn btn-success btn-lg">Send</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
 
-</main>
+    
 
-      </div>
+        <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Rio de Janeiro</h3>
+                        <p>
+                            
+                                Brazil <br>
+		                    
+                        </p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>eri0o</h3>
+                        <ul class="list-inline">
+                            
+                            <li>
+                                <a href="http://twitter.com/eri0o" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="http://github.com/ericoporto" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+		                    
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>based on freelancer jekyll theme</h3>
+                        <p>Freelancer is an open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Érico Vieira Porto 2018
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
     </div>
 
-    <!-- content end -->
-
-    <!-- footer start -->
-
-<footer class="site-footer">
-  <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
-    <div class="inner">
-         <section class="copyright">All content copyright <a href="mailto:elhafulvics@gmail.com">Erico Porto</a> &copy; 2015 &bull; All rights reserved.</section>
-         <section class="poweredby">Made with <a href="http://jekyllrb.com"> Jekyll</a></section>
+     <!-- Portfolio Modals -->
+ 
+    <div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Future Flashback</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/prj_futureflashback.png" class="img-responsive img-centered" alt="Future Flashback">
+                            
+                                <p><a href="http://www.futureflashbackgame.com">Future Flashback</a> is a Cyberpunk themed Point and click adventure game, with incredible pixels and great music that clashes the 80's vibes on chiptune beat as you explore the journey of a man trapped in the memories of another person. Worked on the game direction, programming, <a href="http://futureflashbackgame.com/blog/">website</a> and social accounts.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li>
+                                        <strong><a href="https://www.futureflashbackgame.com/presskit/sheet.php?p=future_flashback">Myths Untold</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong>April 2017
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong>Game Development
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</footer>
 
-<!-- footer end -->
+    <div class="portfolio-modal modal fade" id="portfolioModal-2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>AGSJOY</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/prj_agsjoy.png" class="img-responsive img-centered" alt="agsjoy">
+                            
+                                <p>Joystick for Adventure Game Studio Engine in Linux, OSX and Windows, based on SDL2. Reverse engineered version of the plugin, based on code started by qptain_Nemo, compatible with Wyz agsjoy, builds on the cloud.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li>
+                                        <strong>Adventure Game Studio
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong>July 2018
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong>Game Development
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="/assets/js/index.js"></script>
-<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
-<script>
-(function ($) {
-  "use strict";
-  $(document).ready(function(){
+    <div class="portfolio-modal modal fade" id="portfolioModal-3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>FGMK</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/prj_fgmk.png" class="img-responsive img-centered" alt="fgmk">
+                            
+                                <p><a href="https://github.com/ericoporto/fgmk">FGMK</a> is a software for creating a HTML5 RPG through an easy to use PyQt UI. The project seeks to reach this goal by providing a spec for writing and interpret text files as games, a tool for writing these files in an easy to use interface, and an engine to allow playing these files as a game.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li>
+                                        <strong><a href="https://github.com/ericoporto/fgmk">FGMK</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong>April 2018
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong>Game Development
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    var $window = $(window),
-    $image = $('.post-image-image, .teaserimage-image');
-    $window.on('scroll', function() {
-      var top = $window.scrollTop();
+    <div class="portfolio-modal modal fade" id="portfolioModal-5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Command Line Erico</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/prj_bashblog.png" class="img-responsive img-centered" alt="Command Line Erico">
+                            
+                                <p><a href="https://ericoporto.github.io/bashblog/">Command Line Erico</a> is a small blog where I write about things on command line and Linux, using bashblog as platform, writing directly from the command line.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li>
+                                        <strong><a href="https://ericoporto.github.io/bashblog/">Command Line Erico</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong>March 2018
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong>Web Development
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-      if (top < 0 || top > 1500) { return; }
-      $image
-        .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
-        .css('opacity', 1-Math.max(top/700, 0));
-    });
-    $window.trigger('scroll');
+    <div class="portfolio-modal modal fade" id="portfolioModal-4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Codename-LT</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/prj_codenamelt.png" class="img-responsive img-centered" alt="codenamelt">
+                            
+                                <p>A pixelart game where you have to run without getting caught by evil agents. This is the product of development with an awesome team of people from the VACAROXA. Find them on twitter through <a href="https://twitter.com/estudiovacaroxa"> @estudiovacaroxa</a>. Game created on Global Game Jam 2018. Find it <a href="https://github.com/VacaRoxa/CodenameLT/"> on Github repository</a> or  <a href="https://bakudas.itch.io/clt">on itch.io</a>.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li>
+                                        <strong><a href="https://github.com/VacaRoxa">Vacaroxa</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong>February 2018
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong>Game Development
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    var height = $('.article-image').height();
-    $('.post-content').css('padding-top', height + 'px');
+    <div class="portfolio-modal modal fade" id="portfolioModal-6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>keto</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/prj_keto.png" class="img-responsive img-centered" alt="keto">
+                            
+                                <p>A Javascript unified keyboard for typing games even on mobile! Because normal keyboards are slow for mobile typing games.</p>
+                            
+                            <ul class="list-inline item-details">
+                                
+                                    <li>
+                                        <strong><a href="https://github.com/ericoporto/ketoJS">keto</a>
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Date:
+                                        <strong>January 2018
+                                        </strong>
+                                    </li>
+                                
+                                
+                                    <li>Service:
+                                        <strong>Web Development
+                                        </strong>
+                                    </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    $('a[href*=#]:not([href=#])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-       && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html,body').animate({ scrollTop: target.offset().top }, 500);
-          return false;
-        }
-      }
-    });
-  });
-}(jQuery));
-</script>
+     <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
 
-    <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
 
-ga('create', 'UA-59497649-1', 'auto');
-ga('send', 'pageview');
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
 
-</script>
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    
+    <script src="/js/contact_me_static.js"></script>
+    
 
-  </body>
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/freelancer.js"></script>
 
+    
+
+    </body>
 </html>

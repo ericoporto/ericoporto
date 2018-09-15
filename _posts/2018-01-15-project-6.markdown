@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 6
+date: 2018-01-15
+img: prj_keto.png
+alt: keto
+title: keto
+project-date: January 2018
+client: <a href="https://github.com/ericoporto/ketoJS">keto</a>
+category: Web Development
+description: A Javascript unified keyboard for typing games even on mobile! Because normal keyboards are slow for mobile typing games.
+
+---

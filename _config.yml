@@ -1,53 +1,63 @@
-# Build settings
-markdown: redcarpet
-highlighter: pygments
-
 # Site settings
-title: "A Glass of Lores"
-description: > # this means to ignore newlines until "email:"
-   A new top down RPG game that you will be able to play right on this webpage.
+title: Érico Porto
+email: erico@futureflashbackgame.com
+url: https://ericoporto.github.io
+description: "Érico Vieira Porto projects."
+keywords: "open source, gamedev, tools, js libs, snippets"
+skills: "Game Developer - Project Manager - Web Developer"
+meta_author: Porto Érico
 
-email: elhafulvics@gmail.com
-#blog logo
-logo: "/assets/images/agol_logo.jpg"
-# blog cover
-cover: "/assets/images/titleimgsw.jpg"
+# Google webmaster tools
+google_verify:
 
-name: 'Erico Porto'
-author: 'Erico Porto'
-author_image: "/assets/images/author.jpg"
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
 
-paginate:	5
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
 
-url: "http://ericoporto.github.io" # the base hostname & protocol for your site
-baseurl: ""
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
 
-# social icons and sharing options
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 484a47 #80B3FF
+  primary-rgb: "72,74,71" #"128,179,255"
+  secondary: a37774 #FD6E8A
+  secondary-dark: 5c6d70 #A2122F
+
+# Footer settings
+footer:
+  copyright: Érico Vieira Porto
+  location: Rio de Janeiro
+  social: eri0o
+  credits: based on freelancer jekyll theme
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - icon:	twitter
-    url:	https://twitter.com/aglassoflores
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
+  - title: twitter
+    url: http://twitter.com/eri0o
+#  - title: facebook
+#    url:
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket
+#    url: http://bitbucket.org/ericoporto
+  - title: github
+    url: http://github.com/ericoporto
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: //www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+# Postal address (add as many lines as necessary)
+address:
+#  - line: 0 Somewhere Street
+  - line: Brazil
 
-  - icon:	github
-    url:	https://github.com/ericoporto
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
+# Credits content
+credits: 'Freelancer is an open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+# Build settings
+markdown: kramdown
+permalink: pretty
