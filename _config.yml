@@ -40,7 +40,7 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/eri0o
+    url: https://twitter.com/eri0o
 #  - title: facebook
 #    url:
 #  - title: stack-overflow
@@ -48,7 +48,11 @@ social:
 #  - title: bitbucket
 #    url: http://bitbucket.org/ericoporto
   - title: github
-    url: http://github.com/ericoporto
+    url: https://github.com/ericoporto
+  - title: linkedin
+    url: https://www.linkedin.com/in/%C3%A9rico-vieira-porto-17857524/
+  - title: gamepad
+    url: https://eri0o.itch.io/
 
 # Postal address (add as many lines as necessary)
 address:

@@ -9,6 +9,9 @@
                         <hr class="star-light">
                         <span class="skills">{{ site.skills }}</span>
                     </div>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                   {% endfor %}
                 </div>
             </div>
         </div>
