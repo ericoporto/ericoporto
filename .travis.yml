@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.3.3
 
-install: gem install jekyll
+install: ./install-dependencies.sh
 script: jekyll build
 
 sudo: false
