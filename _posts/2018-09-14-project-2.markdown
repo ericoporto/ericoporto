@@ -6,8 +6,8 @@ title: AGSJOY
 img: prj_agsjoy.png
 alt: agsjoy
 project-date: July 2018
-client: Adventure Game Studio
+client: <a href="https://github.com/ericoporto/agsjoy">agsjoy</a>
 category: Game Development
-description: Joystick for Adventure Game Studio Engine in Linux, OSX and Windows, based on SDL2. Reverse engineered version of the plugin, based on code started by qptain_Nemo, compatible with Wyz agsjoy, builds on the cloud.
+description: <a href="https://github.com/ericoporto/agsjoy">Joystick for Adventure Game Studio Engine in Linux, OSX and Windows, based on SDL2</a>. Reverse engineered version of the plugin, based on code started by qptain_Nemo, compatible with Wyz agsjoy, builds on the cloud.
 
 ---
