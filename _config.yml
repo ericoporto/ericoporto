@@ -53,6 +53,8 @@ social:
     url: https://www.linkedin.com/in/%C3%A9rico-vieira-porto-17857524/
   - title: gamepad
     url: https://eri0o.itch.io/
+  - title: rss
+    url: feed.xml
 
 # Postal address (add as many lines as necessary)
 address:
