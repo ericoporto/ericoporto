@@ -39,22 +39,22 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/eri0o
 #  - title: facebook
 #    url:
 #  - title: stack-overflow
 #    url: http://stackoverflow.com/questions/tagged/jekyll
 #  - title: bitbucket
 #    url: http://bitbucket.org/ericoporto
+  - title: book
+    url: https://ericonotes.blogspot.com
   - title: github
     url: https://github.com/ericoporto
+  - title: twitter
+    url: https://twitter.com/eri0o 
   - title: linkedin
     url: https://www.linkedin.com/in/%C3%A9rico-vieira-porto-17857524/
   - title: gamepad
     url: https://eri0o.itch.io/
-  - title: book
-    url: https://ericonotes.blogspot.com
   - title: rss
     url: feed.xml
 
